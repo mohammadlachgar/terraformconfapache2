@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name_secret="Compute-Engine-1"
+name_secret="Compute-Engine-2"
 
 mkdir -p ./creds 
 
