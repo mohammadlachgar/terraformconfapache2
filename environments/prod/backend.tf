@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+#First Create project_id-tfstate
 
 terraform {
   backend "gcs" {

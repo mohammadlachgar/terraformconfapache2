@@ -18,6 +18,7 @@ locals {
 }
 
 provider "google" {
+  credentials = file("./creds/serviceaccount.json")
   project = var.project
 }
 
@@ -38,3 +39,4 @@ module "firewall" {
   project = var.project
   subnet  = module.vpc.subnet
 }
+ 
